@@ -178,4 +178,4 @@ with st.expander("ℹ️ 使用说明"):
 
 # 添加页脚
 st.markdown("---")
-st.markdown("🔍 预测模型基于XGBoost算法训练，版本：1.0.0 | © 2024 设备健康监测系统")
+st.markdown("🔍 预测模型基于Transformer-LSTM法训练，版本：1.0.0 | © 2025 风电机组覆冰监测系统")
