@@ -105,7 +105,7 @@ if st.button("开始预测"):
         with col2:
             st.subheader("📈 概率分布")
             fig, ax = plt.subplots(figsize=(8, 3))
-            bars = ax.barh(['正常', '异常'], 
+            bars = ax.barh(['Normal', 'malfunction'], 
                           [proba[0], proba[1]], 
                           color=['#4CAF50', '#FF5252'])
             
